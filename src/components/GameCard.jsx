@@ -8,6 +8,9 @@ const GameCard = ({ game }) => {
       <Card
       imgAlt="Meaningful alt text for an image that is not purely decorative"
       imgSrc={game.background_image}
+      className='hover:shadow-2xl hover:cursor-pointer hover:scale-105'
+        
+
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         <p>
